@@ -175,7 +175,8 @@ The gear in the header opens the dialog:
 
 - **Hosting: Vercel.** `vercel.json` sets the Vite preset, build `npm run build`, output `dist`, an SPA rewrite to `index.html`, `Content-Security-Policy: frame-ancestors *` (embeddable anywhere; restrict it as needed), and **no** `X-Frame-Options`. It also sets `nosniff`, a referrer policy, and immutable caching for `/assets/*`.
 - The game needs no popups, permissions, cookies or minimum width, and works inside an iframe.
-- SEO: title, meta description, Open Graph/Twitter tags, `og-image.png` (1200×630), favicon SVG, apple-touch icon, and per-scheme `theme-color`.
+- **Live URL:** https://brain-quest-seven.vercel.app/ (Vercel, auto-deploys on every push to `main` of github.com/builtbylyka-dotcom/brain-quest).
+- SEO: title, meta description, canonical URL, Open Graph/Twitter tags with absolute URLs (`og:url`, `og:image` → `/og-image.png`, 1200×630), favicon SVG, apple-touch icon, and per-scheme `theme-color`. If the domain changes, update those four URLs in `index.html`.
 - See `README.md` for pushing to GitHub, Vercel deploy steps, and an iframe snippet.
 
 ## Testing & QA tooling
@@ -192,10 +193,9 @@ The gear in the header opens the dialog:
 | Replay variety | Each subcategory × difficulty has exactly 10 questions, so replaying the same combination shows the same 10 in a new order. Mixed rounds vary the most. |
 | Question accuracy | Questions were written and cross-checked against the KJV text by hand, without automated verse lookup. A reviewer familiar with scripture should spot-check them before a wide launch. |
 | Progress | Stored per browser/device only. No sync, and clearing site data erases it. |
-| Link previews | `og:image` is a relative URL. Set it to an absolute URL after the final domain is known. |
 | Sound | Synthesized tones only, with no music. Some browsers block audio until first interaction (by design). |
 | Bundle | About 172 kB gzipped JS (mostly React DOM and Motion). |
 
 ---
 
-_Last updated: 2026-10-20. Initial release (v1.0.0): full Bible Trivia game, quilt visual system, achievements, statistics, settings, sharing, tests, Netlify config. Design-review fixes: home quilt shows only real rows once played; quieter miss patches; sticky gameplay bar; toast placement; Bible card no longer uses gold; body line-height 1.7. See `DESIGN.md` for the design system. Hosting switched from Netlify to Vercel (`vercel.json` replaces `netlify.toml`)._
+_Last updated: 2026-10-20. Initial release (v1.0.0): full Bible Trivia game, quilt visual system, achievements, statistics, settings, sharing, tests, Netlify config. Design-review fixes: home quilt shows only real rows once played; quieter miss patches; sticky gameplay bar; toast placement; Bible card no longer uses gold; body line-height 1.7. See `DESIGN.md` for the design system. Hosting switched from Netlify to Vercel (`vercel.json` replaces `netlify.toml`); deployed at https://brain-quest-seven.vercel.app/ with absolute canonical and Open Graph URLs._

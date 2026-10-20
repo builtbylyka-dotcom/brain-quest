@@ -80,7 +80,9 @@ When Git asks for a password, use a GitHub **personal access token**, not your a
 - **From GitHub (recommended):** go to vercel.com → **Add New… → Project** → import the GitHub repo → **Deploy**. Every push to `main` redeploys automatically, and pull requests get preview URLs.
 - **From the terminal:** `npm i -g vercel`, then `vercel` (preview) and `vercel --prod` (production).
 
-After you know the final URL, consider making `og:image` in `index.html` an absolute URL (e.g. `https://your-project.vercel.app/og-image.png`) for the most reliable link previews.
+**Live:** https://brain-quest-seven.vercel.app/
+
+If the domain changes (e.g. a custom domain), update the `canonical`, `og:url`, `og:image` and `twitter:image` URLs in `index.html`.
 
 ## Embedding
 
@@ -88,7 +90,7 @@ The game works inside an iframe: no popups, permissions, cookies, or minimum wid
 
 ```html
 <iframe
-  src="https://YOUR-PROJECT.vercel.app/"
+  src="https://brain-quest-seven.vercel.app/"
   title="Brain Quest trivia game"
   style="width: 100%; max-width: 960px; height: 820px; border: 0; border-radius: 16px"
   loading="lazy"
