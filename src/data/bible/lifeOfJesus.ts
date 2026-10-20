@@ -1,0 +1,190 @@
+import { buildBank } from "./build";
+
+export const lifeOfJesus = buildBank("lj", "life-of-jesus", {
+  easy: [
+    [
+      "In which town was Jesus born?",
+      ["Bethlehem", "Nazareth", "Jerusalem", "Capernaum"],
+      "\"Jesus was born in Bethlehem of Judaea in the days of Herod the king.\"",
+      "Matthew 2:1",
+    ],
+    [
+      "Where did Mary lay baby Jesus after He was born?",
+      ["In a manger", "In a basket", "In a cradle", "In a boat"],
+      "Mary wrapped Him in swaddling clothes and laid Him in a manger, \"because there was no room for them in the inn.\"",
+      "Luke 2:7",
+    ],
+    [
+      "Who baptized Jesus in the river Jordan?",
+      ["John the Baptist", "Peter", "Andrew", "James"],
+      "Jesus came from Galilee to John at the Jordan. As He came up from the water, the Spirit descended like a dove.",
+      "Matthew 3:13-16",
+    ],
+    [
+      "How many apostles did Jesus choose from among His disciples?",
+      ["Twelve", "Seven", "Ten", "Seventy"],
+      "After praying all night, Jesus \"chose twelve, whom also he named apostles.\"",
+      "Luke 6:12-13",
+    ],
+    [
+      "Which disciple betrayed Jesus for thirty pieces of silver?",
+      ["Judas Iscariot", "Peter", "Thomas", "Matthew"],
+      "Judas went to the chief priests and asked, \"What will ye give me?\" They covenanted with him for thirty pieces of silver.",
+      "Matthew 26:14-15",
+    ],
+    [
+      "On which day did Jesus rise from the dead?",
+      ["The third day", "The second day", "The seventh day", "The fortieth day"],
+      "Jesus explained that \"it behoved Christ to suffer, and to rise from the dead the third day.\"",
+      "Luke 24:46",
+    ],
+    [
+      "Which disciple denied knowing Jesus three times before the rooster crowed?",
+      ["Peter", "John", "Judas", "Andrew"],
+      "When the cock crew, Peter remembered Jesus' words, went out, and wept bitterly.",
+      "Luke 22:60-62",
+    ],
+    [
+      "In which town did Jesus grow up?",
+      ["Nazareth", "Bethlehem", "Bethany", "Jericho"],
+      "After returning from Egypt, Joseph's family \"dwelt in a city called Nazareth.\"",
+      "Matthew 2:23",
+    ],
+    [
+      "Jesus taught a prayer that begins \"Our Father which art in heaven.\" What is it commonly called?",
+      ["The Lord's Prayer", "The Beatitudes", "The Magnificat", "The Shema"],
+      "Jesus gave this pattern for prayer in the Sermon on the Mount: \"After this manner therefore pray ye.\"",
+      "Matthew 6:9-13",
+    ],
+    [
+      "Who brought the young Jesus gifts of gold, frankincense, and myrrh?",
+      ["Wise men from the east", "Shepherds", "Roman soldiers", "Temple priests"],
+      "The wise men followed the star, worshipped the child, and opened their treasures.",
+      "Matthew 2:11",
+    ],
+  ],
+  medium: [
+    [
+      "How many days and nights did Jesus fast in the wilderness?",
+      ["Forty", "Seven", "Three", "Twelve"],
+      "\"When he had fasted forty days and forty nights, he was afterward an hungred,\" and the tempter came.",
+      "Matthew 4:2-3",
+    ],
+    [
+      "Who first heard the angel announce Jesus' birth in the fields near Bethlehem?",
+      ["Shepherds", "Wise men", "Priests", "Innkeepers"],
+      "Shepherds keeping watch over their flock by night were told, \"Unto you is born this day… a Saviour.\"",
+      "Luke 2:8-11",
+    ],
+    [
+      "In which place did Jesus pray on the night He was arrested?",
+      ["Gethsemane", "Eden", "Bethany", "Golgotha"],
+      "Jesus came with His disciples \"unto a place called Gethsemane\" and went a little further to pray.",
+      "Matthew 26:36-39",
+    ],
+    [
+      "What was the name of the place where Jesus was crucified?",
+      ["Golgotha", "Gethsemane", "Mount Sinai", "Mount Tabor"],
+      "They came \"unto a place called Golgotha, that is to say, a place of a skull.\" Luke calls it Calvary.",
+      "Matthew 27:33",
+    ],
+    [
+      "Where did Mary and Joseph find twelve-year-old Jesus after searching for three days?",
+      ["In the temple", "In the marketplace", "In a synagogue in Nazareth", "By the Sea of Galilee"],
+      "They found Him in the temple, sitting among the teachers, both hearing them and asking them questions.",
+      "Luke 2:42-46",
+    ],
+    [
+      "Which Roman governor handed Jesus over to be crucified?",
+      ["Pontius Pilate", "Herod", "Caesar Augustus", "Felix"],
+      "Pilate released Barabbas, \"and when he had scourged Jesus, he delivered him to be crucified.\"",
+      "Matthew 27:26",
+    ],
+    [
+      "What did Jesus ride as He entered Jerusalem to shouts of \"Hosanna\"?",
+      ["A young donkey", "A white horse", "A camel", "A chariot"],
+      "\"Jesus, when he had found a young ass, sat thereon,\" fulfilling Zechariah's prophecy.",
+      "John 12:12-15",
+    ],
+    [
+      "Who was Simon Peter's brother, also a fisherman called by Jesus?",
+      ["Andrew", "James", "John", "Philip"],
+      "Jesus saw \"Simon called Peter, and Andrew his brother, casting a net into the sea.\"",
+      "Matthew 4:18-19",
+    ],
+    [
+      "Who laid Jesus' body in his own new tomb hewn out of rock?",
+      ["Joseph of Arimathaea", "Nicodemus", "Lazarus", "Simon of Cyrene"],
+      "Joseph, a rich man and disciple, begged Pilate for the body and laid it \"in his own new tomb.\"",
+      "Matthew 27:57-60",
+    ],
+    [
+      "Who was compelled to carry Jesus' cross?",
+      ["Simon of Cyrene", "Simon Peter", "Barabbas", "Joseph of Arimathaea"],
+      "The soldiers \"found a man of Cyrene, Simon by name: him they compelled to bear his cross.\"",
+      "Matthew 27:32",
+    ],
+  ],
+  hard: [
+    [
+      "Which prisoner did Pilate release to the crowd instead of Jesus?",
+      ["Barabbas", "Barnabas", "Bartimaeus", "Bartholomew"],
+      "It was the governor's custom to release one prisoner at the feast. The crowd chose Barabbas.",
+      "Matthew 27:20-26",
+    ],
+    [
+      "Which three disciples went up the high mountain and saw Jesus transfigured?",
+      ["Peter, James, and John", "Peter, Andrew, and John", "James, John, and Matthew", "Peter, Thomas, and Philip"],
+      "Jesus \"taketh Peter, James, and John his brother,\" and His face shone as the sun.",
+      "Matthew 17:1-2",
+    ],
+    [
+      "Who appeared talking with Jesus at the transfiguration?",
+      ["Moses and Elijah", "Abraham and David", "Elijah and Elisha", "Moses and Aaron"],
+      "\"There appeared unto them Moses and Elias talking with him.\" Elias is the Greek form of Elijah.",
+      "Matthew 17:3",
+    ],
+    [
+      "Toward which village were two disciples walking when the risen Jesus joined them unrecognised?",
+      ["Emmaus", "Bethany", "Jericho", "Nain"],
+      "Two of them went to Emmaus, about threescore furlongs from Jerusalem, and knew Him when He broke bread.",
+      "Luke 24:13-31",
+    ],
+    [
+      "Which devout man in the temple took the infant Jesus in his arms and blessed God?",
+      ["Simeon", "Zacharias", "Nicodemus", "Gamaliel"],
+      "The Holy Ghost had revealed to Simeon that he would not die before he had seen the Lord's Christ.",
+      "Luke 2:25-28",
+    ],
+    [
+      "According to Matthew, to which high priest was Jesus led after His arrest?",
+      ["Caiaphas", "Annas", "Eli", "Zadok"],
+      "They \"led him away to Caiaphas the high priest, where the scribes and the elders were assembled.\"",
+      "Matthew 26:57",
+    ],
+    [
+      "When Peter asked about forgiving seven times, Jesus said \"until seventy times…\" what?",
+      ["Seven", "Ten", "Twelve", "Three"],
+      "\"I say not unto thee, Until seven times: but, Until seventy times seven.\"",
+      "Matthew 18:21-22",
+    ],
+    [
+      "To which country did Joseph take Mary and Jesus to escape King Herod?",
+      ["Egypt", "Syria", "Babylon", "Moab"],
+      "An angel warned Joseph in a dream to flee into Egypt and stay there until Herod's death.",
+      "Matthew 2:13-14",
+    ],
+    [
+      "According to John, in which three languages was the title on the cross written?",
+      ["Hebrew, Greek, and Latin", "Hebrew, Aramaic, and Greek", "Latin, Greek, and Egyptian", "Hebrew, Latin, and Persian"],
+      "Pilate's title, \"JESUS OF NAZARETH THE KING OF THE JEWS,\" \"was written in Hebrew, and Greek, and Latin.\"",
+      "John 19:19-20",
+    ],
+    [
+      "In the synagogue at Nazareth, from which prophet's book did Jesus read?",
+      ["Isaiah", "Jeremiah", "Daniel", "Malachi"],
+      "He was handed \"the book of the prophet Esaias\" and read, \"The Spirit of the Lord is upon me.\"",
+      "Luke 4:16-18",
+    ],
+  ],
+});

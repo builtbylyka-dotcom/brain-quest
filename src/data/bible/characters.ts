@@ -1,0 +1,190 @@
+import { buildBank } from "./build";
+
+export const characters = buildBank("ch", "characters", {
+  easy: [
+    [
+      "Who built an ark to save his family and the animals from the flood?",
+      ["Noah", "Abraham", "Moses", "Jonah"],
+      "God told Noah, \"Make thee an ark of gopher wood,\" and gave him its exact measurements.",
+      "Genesis 6:14-15",
+    ],
+    [
+      "Who was swallowed by a great fish after running from God?",
+      ["Jonah", "Jeremiah", "Elijah", "Peter"],
+      "\"Jonah was in the belly of the fish three days and three nights\" before it vomited him onto dry land.",
+      "Jonah 1:17",
+    ],
+    [
+      "Who was the first man God created?",
+      ["Adam", "Abel", "Seth", "Enoch"],
+      "God formed man of the dust of the ground and breathed into his nostrils the breath of life.",
+      "Genesis 2:7",
+    ],
+    [
+      "Whose great strength was tied to his vow never to cut his hair?",
+      ["Samson", "Gideon", "Saul", "Goliath"],
+      "Samson told Delilah, \"If I be shaven, then my strength will go from me.\"",
+      "Judges 16:17",
+    ],
+    [
+      "Who received a coat of many colours from his father Jacob (Israel)?",
+      ["Joseph", "Benjamin", "Reuben", "Judah"],
+      "Israel loved Joseph more than all his children and made him a coat of many colours.",
+      "Genesis 37:3",
+    ],
+    [
+      "Who was thrown into a den of lions for praying to God?",
+      ["Daniel", "Jeremiah", "Joseph", "David"],
+      "King Darius had Daniel cast into the den, but God sent His angel and shut the lions' mouths.",
+      "Daniel 6:16-22",
+    ],
+    [
+      "Who was the mother of Jesus?",
+      ["Mary", "Elisabeth", "Martha", "Anna"],
+      "The angel Gabriel told Mary she would bring forth a son and call His name Jesus.",
+      "Luke 1:30-31",
+    ],
+    [
+      "Which king asked God for an understanding heart and became famous for his wisdom?",
+      ["Solomon", "David", "Saul", "Hezekiah"],
+      "God gave Solomon \"a wise and an understanding heart,\" and riches and honour he had not asked for.",
+      "1 Kings 3:9-13",
+    ],
+    [
+      "Who was Abraham's wife who gave birth to Isaac in her old age?",
+      ["Sarah", "Rebekah", "Rachel", "Leah"],
+      "\"Sarah conceived, and bare Abraham a son in his old age,\" just as God had promised.",
+      "Genesis 21:2",
+    ],
+    [
+      "Which shepherd boy did Samuel anoint to be the future king of Israel?",
+      ["David", "Saul", "Jonathan", "Solomon"],
+      "Samuel anointed the youngest son of Jesse, and the Spirit of the LORD came upon David from that day.",
+      "1 Samuel 16:13",
+    ],
+  ],
+  medium: [
+    [
+      "Who was Ruth's mother-in-law?",
+      ["Naomi", "Orpah", "Hannah", "Esther"],
+      "Ruth married one of Naomi's sons in Moab and later refused to leave Naomi after both their husbands died.",
+      "Ruth 1:3-4",
+    ],
+    [
+      "Who became queen of Persia after Queen Vashti was removed?",
+      ["Esther", "Jezebel", "Bathsheba", "Michal"],
+      "King Ahasuerus loved Esther above all the women and set the royal crown upon her head.",
+      "Esther 2:17",
+    ],
+    [
+      "Which chief tax collector climbed a sycomore tree to see Jesus?",
+      ["Zacchaeus", "Matthew", "Nicodemus", "Bartimaeus"],
+      "Zacchaeus was short, so he ran ahead and climbed a tree. Jesus called him down and stayed at his house.",
+      "Luke 19:2-5",
+    ],
+    [
+      "Who was the father of John the Baptist?",
+      ["Zacharias", "Joseph", "Simeon", "Eli"],
+      "The angel told Zacharias, a priest, that his wife Elisabeth would bear a son named John.",
+      "Luke 1:13",
+    ],
+    [
+      "Who was the first king of Israel?",
+      ["Saul", "David", "Solomon", "Samuel"],
+      "Samuel presented Saul to the people, and they shouted, \"God save the king.\"",
+      "1 Samuel 10:24",
+    ],
+    [
+      "Which prophetess judged Israel and led the victory over Sisera with Barak?",
+      ["Deborah", "Miriam", "Huldah", "Jael"],
+      "\"Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time.\"",
+      "Judges 4:4",
+    ],
+    [
+      "Who was Jacob's twin brother?",
+      ["Esau", "Ishmael", "Laban", "Isaac"],
+      "Esau was born first, red and hairy. Jacob came out holding on to Esau's heel.",
+      "Genesis 25:24-26",
+    ],
+    [
+      "Who was Moses' brother, chosen to speak for him before Pharaoh?",
+      ["Aaron", "Joshua", "Caleb", "Levi"],
+      "God told Moses that Aaron his brother could speak well and \"shall be thy spokesman unto the people.\"",
+      "Exodus 4:14-16",
+    ],
+    [
+      "Who hid the two Israelite spies on her roof in Jericho?",
+      ["Rahab", "Ruth", "Deborah", "Delilah"],
+      "Rahab hid the spies under stalks of flax and was spared, along with her family, when Jericho fell.",
+      "Joshua 2:1-6",
+    ],
+    [
+      "Which Pharisee and ruler of the Jews came to Jesus by night?",
+      ["Nicodemus", "Gamaliel", "Caiaphas", "Joseph of Arimathaea"],
+      "Nicodemus came by night, and Jesus told him, \"Ye must be born again.\"",
+      "John 3:1-7",
+    ],
+  ],
+  hard: [
+    [
+      "Which of Joseph's brothers suggested selling him rather than killing him?",
+      ["Judah", "Reuben", "Benjamin", "Levi"],
+      "Judah said, \"Come, and let us sell him to the Ishmeelites, and let not our hand be upon him.\"",
+      "Genesis 37:26-27",
+    ],
+    [
+      "Who lived 969 years, the longest life recorded in the Bible?",
+      ["Methuselah", "Enoch", "Noah", "Adam"],
+      "\"All the days of Methuselah were nine hundred sixty and nine years: and he died.\"",
+      "Genesis 5:27",
+    ],
+    [
+      "Which left-handed judge delivered Israel from Eglon, king of Moab?",
+      ["Ehud", "Othniel", "Shamgar", "Jair"],
+      "Ehud the son of Gera, \"a man lefthanded,\" carried a hidden dagger on his right thigh.",
+      "Judges 3:15-21",
+    ],
+    [
+      "Which son of Jonathan, lame in both feet, did David honour at his table?",
+      ["Mephibosheth", "Ishbosheth", "Absalom", "Amnon"],
+      "David showed kindness for Jonathan's sake and said Mephibosheth would eat bread at his table continually.",
+      "2 Samuel 9:6-7",
+    ],
+    [
+      "Which priest did the boy Samuel serve under at Shiloh?",
+      ["Eli", "Zadok", "Abiathar", "Aaron"],
+      "\"The child Samuel ministered unto the LORD before Eli.\" Eli helped him recognise God's call.",
+      "1 Samuel 3:1-9",
+    ],
+    [
+      "Who was the cousin who raised Esther after her parents died?",
+      ["Mordecai", "Haman", "Nehemiah", "Ezra"],
+      "Mordecai took Esther, his uncle's daughter, \"for his own daughter\" when her father and mother were dead.",
+      "Esther 2:7",
+    ],
+    [
+      "Which king of Salem and priest of the most high God blessed Abram?",
+      ["Melchizedek", "Abimelech", "Jethro", "Balaam"],
+      "Melchizedek brought forth bread and wine and blessed Abram after his victory.",
+      "Genesis 14:18-19",
+    ],
+    [
+      "Which father-in-law of Moses advised him to appoint able men to help judge the people?",
+      ["Jethro", "Laban", "Eleazar", "Balaam"],
+      "Jethro saw Moses judging from morning until evening and told him, \"The thing that thou doest is not good.\"",
+      "Exodus 18:13-24",
+    ],
+    [
+      "Which wife of King Ahab threatened Elijah's life after Mount Carmel?",
+      ["Jezebel", "Athaliah", "Vashti", "Michal"],
+      "Jezebel sent a messenger vowing to take Elijah's life by the next day, and he fled to the wilderness.",
+      "1 Kings 19:1-3",
+    ],
+    [
+      "Which son of David led a rebellion and was caught when his head became stuck in an oak?",
+      ["Absalom", "Adonijah", "Amnon", "Solomon"],
+      "Riding a mule under a great oak, Absalom's head caught hold of the oak and he was left hanging.",
+      "2 Samuel 18:9",
+    ],
+  ],
+});

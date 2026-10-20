@@ -1,0 +1,190 @@
+import { buildBank } from "./build";
+
+export const newTestament = buildBank("nt", "new-testament", {
+  easy: [
+    [
+      "By what other name was Saul of Tarsus, the apostle, also called?",
+      ["Paul", "Peter", "Silas", "Barnabas"],
+      "Acts introduces him as \"Saul, (who also is called Paul,)\" and from then on he is mostly called Paul.",
+      "Acts 13:9",
+    ],
+    [
+      "Saul saw a bright light from heaven while travelling to which city?",
+      ["Damascus", "Jerusalem", "Rome", "Antioch"],
+      "As he came near Damascus, a light from heaven shone round about him and he heard Jesus speak.",
+      "Acts 9:3-4",
+    ],
+    [
+      "On which feast day did the Holy Spirit come upon the disciples with tongues like fire?",
+      ["Pentecost", "Passover", "The Sabbath", "Purim"],
+      "\"When the day of Pentecost was fully come,\" cloven tongues like as of fire sat upon each of them.",
+      "Acts 2:1-4",
+    ],
+    [
+      "What is the last book of the Bible?",
+      ["Revelation", "Jude", "Malachi", "Acts"],
+      "Revelation, given to John, closes the New Testament and the whole Bible.",
+      "Revelation 1:1",
+    ],
+    [
+      "What is the first book of the New Testament?",
+      ["Matthew", "Mark", "Luke", "John"],
+      "Matthew opens the New Testament with \"The book of the generation of Jesus Christ.\"",
+      "Matthew 1:1",
+    ],
+    [
+      "In 1 Corinthians 13, which is called the greatest of faith, hope, and charity (love)?",
+      ["Charity (love)", "Faith", "Hope", "Patience"],
+      "\"And now abideth faith, hope, charity, these three; but the greatest of these is charity.\"",
+      "1 Corinthians 13:13",
+    ],
+    [
+      "Which apostle wrote the letters to the Romans and the Galatians?",
+      ["Paul", "Peter", "James", "John"],
+      "Both letters open by naming Paul as their author: \"Paul, a servant of Jesus Christ…\"",
+      "Romans 1:1",
+    ],
+    [
+      "While Paul and Silas sang in prison at midnight, what happened?",
+      ["An earthquake opened the doors", "An angel carried them out", "The guards fell asleep", "The wall crumbled"],
+      "A great earthquake shook the prison's foundations. Every door opened and every prisoner's bands were loosed.",
+      "Acts 16:25-26",
+    ],
+    [
+      "In Revelation, Jesus says, \"I am Alpha and…\" what?",
+      ["Omega", "Beta", "Zion", "the Morning"],
+      "Alpha and Omega are the first and last letters of the Greek alphabet: \"the beginning and the ending.\"",
+      "Revelation 1:8",
+    ],
+    [
+      "Which of these is listed as a fruit of the Spirit?",
+      ["Love", "Wealth", "Strength", "Fame"],
+      "\"The fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith.\"",
+      "Galatians 5:22",
+    ],
+  ],
+  medium: [
+    [
+      "In which city were the disciples first called Christians?",
+      ["Antioch", "Jerusalem", "Rome", "Corinth"],
+      "Barnabas and Saul taught a great many people in Antioch for a whole year, and the disciples were first called Christians there.",
+      "Acts 11:26",
+    ],
+    [
+      "Who was stoned in Jerusalem and became the first Christian martyr?",
+      ["Stephen", "James", "Philip", "Barnabas"],
+      "As they stoned Stephen he prayed, \"Lord Jesus, receive my spirit,\" and asked forgiveness for those stoning him.",
+      "Acts 7:59-60",
+    ],
+    [
+      "What trade did Paul share with Aquila and Priscilla?",
+      ["Tentmaking", "Fishing", "Carpentry", "Tax collecting"],
+      "Paul stayed and worked with them in Corinth, \"for by their occupation they were tentmakers.\"",
+      "Acts 18:3",
+    ],
+    [
+      "Who was chosen by lot to replace Judas Iscariot among the twelve apostles?",
+      ["Matthias", "Barnabas", "Silas", "Stephen"],
+      "The lot fell upon Matthias, and he was numbered with the eleven apostles.",
+      "Acts 1:26",
+    ],
+    [
+      "Which apostle saw a vision of a great sheet filled with animals let down from heaven?",
+      ["Peter", "Paul", "John", "James"],
+      "Peter's rooftop vision in Joppa prepared him to bring the gospel to Cornelius, a Gentile.",
+      "Acts 10:9-16",
+    ],
+    [
+      "Who baptized the Ethiopian official on the road to Gaza?",
+      ["Philip", "Peter", "Paul", "Stephen"],
+      "After Philip explained Isaiah's prophecy, they went down into the water and Philip baptized him.",
+      "Acts 8:35-38",
+    ],
+    [
+      "Which couple lied about the price of land they sold and fell down dead?",
+      ["Ananias and Sapphira", "Aquila and Priscilla", "Zacharias and Elisabeth", "Felix and Drusilla"],
+      "They kept back part of the price while pretending to give it all. Peter said they had lied to the Holy Ghost.",
+      "Acts 5:1-10",
+    ],
+    [
+      "On which island was Paul shipwrecked on his way to Rome?",
+      ["Melita (Malta)", "Cyprus", "Crete", "Patmos"],
+      "After the shipwreck all escaped safely to land, \"and then they knew that the island was called Melita.\"",
+      "Acts 28:1",
+    ],
+    [
+      "To whom did Paul write, \"from a child thou hast known the holy scriptures\"?",
+      ["Timothy", "Titus", "Philemon", "Luke"],
+      "Paul reminded Timothy of the scriptures he had known since childhood, which make one wise unto salvation.",
+      "2 Timothy 3:14-15",
+    ],
+    [
+      "On which island was John when he received the visions of Revelation?",
+      ["Patmos", "Malta", "Cyprus", "Crete"],
+      "John wrote that he \"was in the isle that is called Patmos, for the word of God.\"",
+      "Revelation 1:9",
+    ],
+  ],
+  hard: [
+    [
+      "Which young man fell from a third-floor window while Paul preached late into the night?",
+      ["Eutychus", "Onesimus", "Tychicus", "Trophimus"],
+      "Eutychus sank into a deep sleep and fell from the third loft. Paul embraced him and he was brought back alive.",
+      "Acts 20:9-12",
+    ],
+    [
+      "Which runaway servant did Paul send back to his master with a letter?",
+      ["Onesimus", "Philemon", "Epaphras", "Demas"],
+      "Paul appealed to Philemon for \"my son Onesimus, whom I have begotten in my bonds.\"",
+      "Philemon 1:10",
+    ],
+    [
+      "What was the name of the seller of purple from Thyatira whose heart the Lord opened in Philippi?",
+      ["Lydia", "Dorcas", "Priscilla", "Phoebe"],
+      "Lydia, who worshipped God, listened to Paul by the riverside. She and her household were baptized.",
+      "Acts 16:14-15",
+    ],
+    [
+      "Which disciple in Joppa, \"full of good works,\" did Peter raise from the dead?",
+      ["Tabitha (Dorcas)", "Lydia", "Rhoda", "Phoebe"],
+      "Peter knelt, prayed, and said, \"Tabitha, arise.\" She opened her eyes and sat up.",
+      "Acts 9:36-40",
+    ],
+    [
+      "Which young woman answered the door when Peter knocked after his escape from prison?",
+      ["Rhoda", "Mary", "Dorcas", "Lois"],
+      "Rhoda was so glad to hear Peter's voice that she ran in to tell the others without opening the gate.",
+      "Acts 12:13-14",
+    ],
+    [
+      "Who were the grandmother and mother of Timothy, praised for their sincere faith?",
+      ["Lois and Eunice", "Mary and Martha", "Naomi and Ruth", "Priscilla and Lydia"],
+      "Paul recalled the unfeigned faith \"which dwelt first in thy grandmother Lois, and thy mother Eunice.\"",
+      "2 Timothy 1:5",
+    ],
+    [
+      "Where in Athens did Paul speak about an altar \"TO THE UNKNOWN GOD\"?",
+      ["Mars' hill", "The Mount of Olives", "Golgotha", "Mount Hermon"],
+      "Paul stood in the midst of Mars' hill (the Areopagus) and declared the God they ignorantly worshipped.",
+      "Acts 17:22-23",
+    ],
+    [
+      "How many churches are addressed in the opening chapters of Revelation?",
+      ["Seven", "Twelve", "Five", "Three"],
+      "John was told to send what he saw \"unto the seven churches which are in Asia,\" from Ephesus to Laodicea.",
+      "Revelation 1:11",
+    ],
+    [
+      "Which sorcerer in Samaria offered the apostles money for the power to give the Holy Ghost?",
+      ["Simon", "Elymas", "Demetrius", "Alexander"],
+      "Simon offered money, and Peter answered, \"Thy money perish with thee.\"",
+      "Acts 8:18-20",
+    ],
+    [
+      "Which silversmith in Ephesus, maker of shrines for Diana, stirred up a riot against Paul?",
+      ["Demetrius", "Erastus", "Tychicus", "Gaius"],
+      "Demetrius feared the gospel would ruin the craft that brought the silversmiths their wealth.",
+      "Acts 19:24-27",
+    ],
+  ],
+});

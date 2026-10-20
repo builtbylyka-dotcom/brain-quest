@@ -1,0 +1,190 @@
+import { buildBank } from "./build";
+
+export const oldTestament = buildBank("ot", "old-testament", {
+  easy: [
+    [
+      "What did God create on the first day?",
+      ["Light", "Dry land", "The sun and moon", "The animals"],
+      "God said, \"Let there be light,\" and divided the light from the darkness. That was the first day.",
+      "Genesis 1:3-5",
+    ],
+    [
+      "How many days did God work in creation before resting on the seventh day?",
+      ["Six", "Five", "Seven", "Ten"],
+      "God finished His work in six days and rested on the seventh day, blessing it and making it holy.",
+      "Genesis 2:1-3",
+    ],
+    [
+      "What did God set in the clouds as a sign that He would never again flood the whole earth?",
+      ["A rainbow", "A bright star", "A pillar of fire", "A white dove"],
+      "God told Noah, \"I do set my bow in the cloud\" as the token of His covenant with the earth.",
+      "Genesis 9:13",
+    ],
+    [
+      "Which sea did the Israelites cross on dry ground as they escaped from Egypt?",
+      ["The Red Sea", "The Dead Sea", "The Sea of Galilee", "The Great Sea"],
+      "God parted the waters with a strong east wind and Israel walked through on dry ground. Exodus 15:4 names it the Red Sea.",
+      "Exodus 14:21-22",
+    ],
+    [
+      "On which mountain did Moses receive the two tablets of the law?",
+      ["Mount Sinai", "Mount Carmel", "Mount Ararat", "Mount Zion"],
+      "God gave Moses \"two tables of testimony, tables of stone\" upon mount Sinai.",
+      "Exodus 31:18",
+    ],
+    [
+      "What food did God send from heaven to feed the Israelites in the wilderness?",
+      ["Manna", "Barley loaves", "Dates and figs", "Honeycomb"],
+      "The bread from heaven was white like coriander seed and tasted like wafers made with honey. Israel called it manna.",
+      "Exodus 16:31",
+    ],
+    [
+      "Which city's walls fell down after the Israelites marched around it and shouted?",
+      ["Jericho", "Ai", "Babylon", "Nineveh"],
+      "After seven days of marching, the priests blew the trumpets, the people shouted, and the wall of Jericho fell flat.",
+      "Joshua 6:20",
+    ],
+    [
+      "What did Moses' mother place him in when she hid him by the river?",
+      ["An ark of bulrushes", "A clay jar", "A wooden boat", "A woven sack"],
+      "She made an ark of bulrushes, sealed it with slime and pitch, and laid it among the reeds by the river's edge.",
+      "Exodus 2:3",
+    ],
+    [
+      "What is the first book of the Bible?",
+      ["Genesis", "Exodus", "Psalms", "Matthew"],
+      "Genesis, meaning \"beginning,\" opens with \"In the beginning God created the heaven and the earth.\"",
+      "Genesis 1:1",
+    ],
+    [
+      "Which Philistine giant did young David defeat with a sling and a stone?",
+      ["Goliath", "Og", "Anak", "Sisera"],
+      "David's stone sank into Goliath's forehead and the giant fell on his face to the earth.",
+      "1 Samuel 17:49-50",
+    ],
+  ],
+  medium: [
+    [
+      "How many years did the Israelites wander in the wilderness?",
+      ["Forty", "Twelve", "Seven", "Seventy"],
+      "Because the people refused to enter the promised land, God said their children would wander in the wilderness forty years.",
+      "Numbers 14:33-34",
+    ],
+    [
+      "What was the final plague God sent upon Egypt?",
+      ["The death of the firstborn", "Darkness", "Locusts", "Hail and fire"],
+      "At midnight the LORD struck all the firstborn in Egypt, and Pharaoh finally let Israel go.",
+      "Exodus 12:29-31",
+    ],
+    [
+      "Which river did the Israelites cross on dry ground to enter the promised land under Joshua?",
+      ["The Jordan", "The Euphrates", "The Nile", "The Tigris"],
+      "When the priests carrying the ark stood in the Jordan, the waters stopped and all Israel crossed on dry ground.",
+      "Joshua 3:17",
+    ],
+    [
+      "What did the Israelites make and worship while Moses was on the mountain with God?",
+      ["A golden calf", "A bronze serpent", "A tower of brick", "A silver altar"],
+      "Aaron fashioned the people's golden earrings into a molten calf, and they said, \"These be thy gods, O Israel.\"",
+      "Exodus 32:4",
+    ],
+    [
+      "Which king of Babylon had Shadrach, Meshach, and Abednego thrown into a fiery furnace?",
+      ["Nebuchadnezzar", "Darius", "Cyrus", "Belshazzar"],
+      "Nebuchadnezzar was furious when the three refused to worship his golden image and had the furnace heated seven times hotter.",
+      "Daniel 3:19-20",
+    ],
+    [
+      "Which feast was established to remember the Jews' deliverance in the book of Esther?",
+      ["Purim", "Passover", "Pentecost", "The Feast of Tabernacles"],
+      "The days were called Purim, after \"Pur,\" the lot Haman had cast to choose the day to destroy the Jews.",
+      "Esther 9:26",
+    ],
+    [
+      "How did God appear to Moses at Horeb, the mountain of God?",
+      ["In a burning bush", "In a pillar of cloud", "In a whirlwind", "In a still small voice"],
+      "The angel of the LORD appeared in a flame of fire out of a bush, and the bush was not consumed.",
+      "Exodus 3:2",
+    ],
+    [
+      "Which prophet was taken up into heaven by a whirlwind?",
+      ["Elijah", "Elisha", "Isaiah", "Jeremiah"],
+      "A chariot of fire and horses of fire parted Elijah and Elisha, and Elijah went up by a whirlwind into heaven.",
+      "2 Kings 2:11",
+    ],
+    [
+      "What were the people of Babel trying to build?",
+      ["A tower whose top would reach heaven", "A golden temple", "A great city wall", "A fleet of ships"],
+      "They said, \"Let us build us a city and a tower, whose top may reach unto heaven.\" God confused their language.",
+      "Genesis 11:4-7",
+    ],
+    [
+      "Which book contains the Ten Commandments in chapter 20?",
+      ["Exodus", "Genesis", "Leviticus", "Joshua"],
+      "Exodus 20 records God speaking the Ten Commandments at Sinai. They are repeated in Deuteronomy 5.",
+      "Exodus 20:1-17",
+    ],
+  ],
+  hard: [
+    [
+      "How many years did Solomon spend building the temple?",
+      ["Seven", "Three", "Twelve", "Forty"],
+      "The house was finished in the eleventh year of Solomon's reign: \"So was he seven years in building it.\"",
+      "1 Kings 6:38",
+    ],
+    [
+      "Which king of Persia proclaimed that the Jews could return and rebuild the house of the LORD in Jerusalem?",
+      ["Cyrus", "Darius", "Artaxerxes", "Ahasuerus"],
+      "In his first year, Cyrus king of Persia made a proclamation throughout his kingdom fulfilling Jeremiah's word.",
+      "Ezra 1:1-3",
+    ],
+    [
+      "What did Jacob name the place where he dreamed of a ladder reaching to heaven?",
+      ["Bethel", "Beersheba", "Hebron", "Shechem"],
+      "Jacob called the place Bethel, meaning \"house of God\"; it had been called Luz at the first.",
+      "Genesis 28:19",
+    ],
+    [
+      "In how many days was the wall of Jerusalem finished under Nehemiah?",
+      ["Fifty-two", "Forty", "Seventy", "Twelve"],
+      "\"So the wall was finished in the twenty and fifth day of the month Elul, in fifty and two days.\"",
+      "Nehemiah 6:15",
+    ],
+    [
+      "How long did the flood waters prevail upon the earth?",
+      ["150 days", "40 days", "7 days", "300 days"],
+      "It rained forty days and nights, but \"the waters prevailed upon the earth an hundred and fifty days.\"",
+      "Genesis 7:24",
+    ],
+    [
+      "Upon which mountains did Noah's ark come to rest?",
+      ["The mountains of Ararat", "Mount Sinai", "Mount Carmel", "Mount Hermon"],
+      "In the seventh month, on the seventeenth day, the ark rested upon the mountains of Ararat.",
+      "Genesis 8:4",
+    ],
+    [
+      "How many prophets of Baal did Elijah face on Mount Carmel?",
+      ["450", "400", "300", "120"],
+      "Elijah said, \"I, even I only, remain a prophet of the LORD; but Baal's prophets are four hundred and fifty men.\"",
+      "1 Kings 18:22",
+    ],
+    [
+      "At whose feast did a hand appear and write on the wall of the palace?",
+      ["Belshazzar's", "Nebuchadnezzar's", "Darius'", "Ahab's"],
+      "During Belshazzar's great feast, fingers of a man's hand wrote on the plaster of the wall. Daniel interpreted it.",
+      "Daniel 5:1-5",
+    ],
+    [
+      "According to Jeremiah, how many years would the nations serve the king of Babylon?",
+      ["Seventy", "Forty", "Twenty", "One hundred"],
+      "\"These nations shall serve the king of Babylon seventy years.\"",
+      "Jeremiah 25:11",
+    ],
+    [
+      "Which judge did God call while he was threshing wheat by the winepress to hide it from the Midianites?",
+      ["Gideon", "Samson", "Jephthah", "Ehud"],
+      "The angel of the LORD appeared to Gideon and said, \"The LORD is with thee, thou mighty man of valour.\"",
+      "Judges 6:11-12",
+    ],
+  ],
+});

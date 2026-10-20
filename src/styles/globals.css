@@ -1,0 +1,321 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bricolage-grotesque/wght.css";
+@import "@fontsource-variable/nunito-sans/index.css";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Brain Quest: a patchwork quilt you sew one answer at a time.
+ * Muslin ground, navy thread, flat fabric fields. Colour laws:
+ * emerald = correct, coral = incorrect, gold = achievements & hints.
+ */
+:root {
+  --ground: #f7f1e5;
+  --ground-deep: #efe6d3;
+  --surface: #fffbf4;
+  --surface-raised: #ffffff;
+  --ink: #1f2443;
+  --ink-soft: #464c6c;
+  --ink-faint: #61668a;
+  --line: #e3d8c3;
+  --stitch: #b3a68b;
+
+  --primary: #4d53ae;
+  --primary-press: #3f4597;
+  --on-primary: #fffbf4;
+  --accent-text: #4d53ae;
+
+  --fab-peri: #8c92de;
+  --fab-peri-soft: #dcddf6;
+  --fab-sage: #a3bc9c;
+  --fab-sage-soft: #e1eadb;
+  --fab-gold: #e3ae4e;
+  --fab-gold-soft: #f6e4be;
+  --fab-coral: #e8907f;
+  --fab-coral-soft: #f8ddd6;
+  --fab-emerald: #5bae88;
+  --fab-emerald-soft: #d5ede1;
+  --fab-navy: #2e3560;
+  --fab-navy-cloth: #2e3560;
+  --fab-muslin: #ebe1cc;
+
+  --sage-text: #46663f;
+  --gold-text: #845c10;
+  --coral-text: #a8412f;
+  --emerald-text: #1f6a49;
+
+  --shadow-tint: 31 36 67;
+  --shadow-1: 0 1px 1px rgb(var(--shadow-tint) / 0.04), 0 2px 6px -2px rgb(var(--shadow-tint) / 0.1);
+  --shadow-2: 0 1px 2px rgb(var(--shadow-tint) / 0.05), 0 6px 14px -6px rgb(var(--shadow-tint) / 0.14),
+    0 18px 36px -18px rgb(var(--shadow-tint) / 0.18);
+  --shadow-3: 0 2px 4px rgb(var(--shadow-tint) / 0.06), 0 12px 28px -10px rgb(var(--shadow-tint) / 0.22),
+    0 32px 64px -28px rgb(var(--shadow-tint) / 0.3);
+
+  --grain-opacity: 0.07;
+  --grain-blend: multiply;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --ground: #151a2e;
+  --ground-deep: #10142a;
+  --surface: #1d2340;
+  --surface-raised: #252c4d;
+  --ink: #f3ecdd;
+  --ink-soft: #c9c5d8;
+  --ink-faint: #a3a3bf;
+  --line: #313858;
+  --stitch: #565e8c;
+
+  --primary: #a5aaf0;
+  --primary-press: #8f95e6;
+  --on-primary: #151a2e;
+  --accent-text: #b4b8f4;
+
+  --fab-peri: #7e85d4;
+  --fab-peri-soft: #2c3361;
+  --fab-sage: #8aa684;
+  --fab-sage-soft: #26372f;
+  --fab-gold: #d9a443;
+  --fab-gold-soft: #3c3324;
+  --fab-coral: #d98271;
+  --fab-coral-soft: #42272a;
+  --fab-emerald: #4c9e7a;
+  --fab-emerald-soft: #1d3a33;
+  --fab-navy: #0d1024;
+  --fab-navy-cloth: #4b5396;
+  --fab-muslin: #232948;
+
+  --sage-text: #a9c6a1;
+  --gold-text: #ebc06e;
+  --coral-text: #f0a596;
+  --emerald-text: #7fd0a8;
+
+  --shadow-tint: 4 6 18;
+  --shadow-1: 0 1px 1px rgb(var(--shadow-tint) / 0.3), 0 2px 6px -2px rgb(var(--shadow-tint) / 0.4);
+  --shadow-2: 0 1px 2px rgb(var(--shadow-tint) / 0.3), 0 6px 14px -6px rgb(var(--shadow-tint) / 0.45),
+    0 18px 36px -18px rgb(var(--shadow-tint) / 0.5);
+  --shadow-3: 0 2px 4px rgb(var(--shadow-tint) / 0.35), 0 12px 28px -10px rgb(var(--shadow-tint) / 0.55),
+    0 32px 64px -28px rgb(var(--shadow-tint) / 0.6);
+
+  --grain-opacity: 0.09;
+  --grain-blend: overlay;
+  color-scheme: dark;
+}
+
+/* No-JS fallback: follow the OS. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --ground: #151a2e;
+    --surface: #1d2340;
+    --ink: #f3ecdd;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --font-display: "Bricolage Grotesque Variable", "Nunito Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Nunito Sans Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-ground: var(--ground);
+  --color-ground-deep: var(--ground-deep);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-stitch: var(--stitch);
+  --color-primary: var(--primary);
+  --color-primary-press: var(--primary-press);
+  --color-on-primary: var(--on-primary);
+  --color-accent-text: var(--accent-text);
+
+  --color-peri: var(--fab-peri);
+  --color-peri-soft: var(--fab-peri-soft);
+  --color-sage: var(--fab-sage);
+  --color-sage-soft: var(--fab-sage-soft);
+  --color-gold: var(--fab-gold);
+  --color-gold-soft: var(--fab-gold-soft);
+  --color-coral: var(--fab-coral);
+  --color-coral-soft: var(--fab-coral-soft);
+  --color-emerald: var(--fab-emerald);
+  --color-emerald-soft: var(--fab-emerald-soft);
+  --color-navy: var(--fab-navy);
+  --color-muslin: var(--fab-muslin);
+
+  --color-sage-text: var(--sage-text);
+  --color-gold-text: var(--gold-text);
+  --color-coral-text: var(--coral-text);
+  --color-emerald-text: var(--emerald-text);
+
+  --shadow-lift-1: var(--shadow-1);
+  --shadow-lift-2: var(--shadow-2);
+  --shadow-lift-3: var(--shadow-3);
+
+  --radius-patch: 0.875rem;
+  --radius-label: 1.25rem;
+
+  --ease-spring: cubic-bezier(0.22, 1.2, 0.36, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    position: relative;
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--ground);
+    background-image:
+      radial-gradient(60rem 36rem at -10% -12%, color-mix(in oklab, var(--fab-peri) 9%, transparent), transparent 70%),
+      radial-gradient(44rem 30rem at 112% 108%, color-mix(in oklab, var(--fab-sage) 10%, transparent), transparent 70%);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Woven-cotton grain over everything; static, never intercepts input. */
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    opacity: var(--grain-opacity);
+    mix-blend-mode: var(--grain-blend);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .12 0 0 0 0 .14 0 0 0 0 .26 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--fab-peri) 45%, transparent);
+    color: var(--ink);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+    border-radius: 0.5rem;
+  }
+
+  a {
+    color: var(--accent-text);
+    text-underline-offset: 0.2em;
+    text-decoration-thickness: 1.5px;
+  }
+
+  button {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--stitch) transparent;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@layer components {
+  /* Running stitch: a dashed seam inset from the edge of a sewn piece. */
+  .stitched {
+    position: relative;
+  }
+  .stitched::after {
+    content: "";
+    position: absolute;
+    inset: var(--stitch-inset, 6px);
+    border: 1.5px dashed var(--stitch-color, var(--stitch));
+    border-radius: calc(var(--stitch-radius, 1.25rem) - var(--stitch-inset, 6px));
+    pointer-events: none;
+  }
+
+  .press {
+    /* Only transform and opacity animate; colour state changes are instant. */
+    transition:
+      transform 220ms var(--ease-spring),
+      opacity 200ms ease;
+  }
+  .press:not(:disabled):not([aria-disabled="true"]):hover {
+    transform: translateY(-2px);
+  }
+  .press:not(:disabled):not([aria-disabled="true"]):active {
+    transform: translateY(1px) scale(0.98);
+    transition-duration: 90ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .press,
+  .press:hover,
+  .press:active {
+    transform: none !important;
+  }
+}
+
+:root[data-motion="reduce"] .press,
+:root[data-motion="reduce"] .press:hover,
+:root[data-motion="reduce"] .press:active {
+  transform: none !important;
+}
+
+/* Dialogs: a floating label that settles into place. */
+.dialog-content {
+  transform: translate(-50%, -50%);
+}
+.dialog-content[data-state="open"] {
+  animation: dialog-in 320ms var(--ease-out-expo);
+}
+.dialog-overlay[data-state="open"] {
+  animation: fade-in 220ms ease-out;
+}
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 12px)) scale(0.97);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dialog-content[data-state="open"],
+  .dialog-overlay[data-state="open"] {
+    animation-duration: 1ms;
+  }
+}
+:root[data-motion="reduce"] .dialog-content[data-state="open"],
+:root[data-motion="reduce"] .dialog-overlay[data-state="open"] {
+  animation-duration: 1ms;
+}

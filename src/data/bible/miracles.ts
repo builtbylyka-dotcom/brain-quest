@@ -1,0 +1,195 @@
+import { buildBank } from "./build";
+
+export const miracles = buildBank("mw", "miracles", {
+  easy: [
+    [
+      "What did Jesus turn water into at the wedding in Cana?",
+      ["Wine", "Milk", "Oil", "Honey"],
+      "Jesus did this \"beginning of miracles\" in Cana of Galilee. The ruler of the feast said the best wine had been kept until now.",
+      "John 2:9-11",
+    ],
+    [
+      "With how many loaves and fishes did Jesus feed the five thousand?",
+      ["Five loaves and two fishes", "Seven loaves and three fishes", "Two loaves and five fishes", "Twelve loaves and one fish"],
+      "Jesus blessed five loaves and two fishes, and about five thousand men, besides women and children, ate and were filled.",
+      "Matthew 14:17-21",
+    ],
+    [
+      "How did Jesus reach His disciples' boat during the night on the stormy sea?",
+      ["He walked on the water", "He swam out to them", "He rowed a second boat", "He called them back to shore"],
+      "\"In the fourth watch of the night Jesus went unto them, walking on the sea.\"",
+      "Matthew 14:25",
+    ],
+    [
+      "Whom did Jesus raise from the dead after four days in the tomb?",
+      ["Lazarus", "Jairus", "Bartimaeus", "Zacchaeus"],
+      "Jesus cried, \"Lazarus, come forth,\" and he came out still bound in grave clothes.",
+      "John 11:39-44",
+    ],
+    [
+      "What happened when Jesus said to the stormy sea, \"Peace, be still\"?",
+      ["There was a great calm", "It began to rain", "The boat sank", "The sun went down"],
+      "\"The wind ceased, and there was a great calm,\" and the disciples asked what manner of man this was.",
+      "Mark 4:39-41",
+    ],
+    [
+      "What did Jesus do for the ten men with leprosy who called to Him?",
+      ["He healed them", "He fed them", "He baptized them", "He sent them away"],
+      "As they went to show themselves to the priests they were cleansed. Only one returned to give thanks.",
+      "Luke 17:12-16",
+    ],
+    [
+      "What did Aaron's rod become when he cast it down before Pharaoh?",
+      ["A serpent", "A tree", "A dove", "A flame"],
+      "Aaron cast down his rod before Pharaoh and his servants, \"and it became a serpent.\"",
+      "Exodus 7:10",
+    ],
+    [
+      "What came out of the rock when Moses struck it in the wilderness?",
+      ["Water", "Fire", "Honey", "Bread"],
+      "At Horeb, God told Moses to smite the rock, \"and there shall come water out of it, that the people may drink.\"",
+      "Exodus 17:6",
+    ],
+    [
+      "What stood still in the sky while Joshua's army won the battle?",
+      ["The sun", "The clouds", "The wind", "The stars"],
+      "\"The sun stood still, and the moon stayed, until the people had avenged themselves upon their enemies.\"",
+      "Joshua 10:12-13",
+    ],
+    [
+      "What happened to Shadrach, Meshach, and Abednego in the fiery furnace?",
+      ["They came out unharmed", "They were badly burned", "They escaped through a tunnel", "The fire went out before they entered"],
+      "The fire had no power on their bodies. Not a hair was singed, and \"the smell of fire\" had not passed on them.",
+      "Daniel 3:25-27",
+    ],
+  ],
+  medium: [
+    [
+      "How many baskets of leftover fragments were gathered after the five thousand were fed?",
+      ["Twelve", "Seven", "Five", "Three"],
+      "\"They took up of the fragments that remained twelve baskets full.\"",
+      "Matthew 14:20",
+    ],
+    [
+      "Which blind beggar near Jericho cried out, \"Jesus, thou Son of David, have mercy on me\"?",
+      ["Bartimaeus", "Lazarus", "Malchus", "Zacchaeus"],
+      "Jesus told blind Bartimaeus, \"Thy faith hath made thee whole,\" and immediately he received his sight.",
+      "Mark 10:46-52",
+    ],
+    [
+      "Whose daughter did Jesus raise, saying \"Talitha cumi\" (\"Damsel, arise\")?",
+      ["Jairus'", "Nicodemus'", "Zacchaeus'", "Simon's"],
+      "Jairus, a ruler of the synagogue, begged Jesus to come. Jesus took the girl by the hand and she arose.",
+      "Mark 5:22-42",
+    ],
+    [
+      "Which Syrian captain was healed of leprosy after dipping seven times in the Jordan?",
+      ["Naaman", "Gehazi", "Hezekiah", "Uzziah"],
+      "Following Elisha's word, Naaman dipped seven times and his flesh became \"like unto the flesh of a little child.\"",
+      "2 Kings 5:14",
+    ],
+    [
+      "What did ravens bring Elijah by the brook Cherith?",
+      ["Bread and flesh", "Fish and honey", "Figs and water", "Manna and quail"],
+      "\"The ravens brought him bread and flesh in the morning, and bread and flesh in the evening.\"",
+      "1 Kings 17:6",
+    ],
+    [
+      "Which prophet made an iron axe head float on the water?",
+      ["Elisha", "Elijah", "Isaiah", "Jonah"],
+      "When a borrowed axe head fell into the Jordan, Elisha cut a stick and threw it in, \"and the iron did swim.\"",
+      "2 Kings 6:5-6",
+    ],
+    [
+      "What never ran out for the widow of Zarephath who fed Elijah?",
+      ["Her meal and oil", "Her water and bread", "Her wine and figs", "Her milk and honey"],
+      "\"The barrel of meal wasted not, neither did the cruse of oil fail,\" according to the word of the LORD.",
+      "1 Kings 17:16",
+    ],
+    [
+      "What did Jesus do after a servant's ear was cut off at His arrest?",
+      ["He touched the ear and healed him", "He ignored it", "He rebuked the servant", "He sent him to a physician"],
+      "Jesus said, \"Suffer ye thus far,\" and He touched his ear and healed him.",
+      "Luke 22:50-51",
+    ],
+    [
+      "Who healed the lame man at the temple gate called Beautiful?",
+      ["Peter and John", "Paul and Silas", "Philip", "Stephen"],
+      "Peter said, \"In the name of Jesus Christ of Nazareth rise up and walk,\" and the man leaped up.",
+      "Acts 3:1-8",
+    ],
+    [
+      "What sign did God give Gideon using a fleece of wool?",
+      [
+        "Dew on the fleece only, then on the ground only",
+        "Fire consuming the fleece",
+        "The fleece turning red",
+        "The fleece floating on water",
+      ],
+      "First the fleece was wet with dew and the ground dry. The next night the fleece was dry and the ground wet.",
+      "Judges 6:37-40",
+    ],
+  ],
+  hard: [
+    [
+      "Whose shadow did people hope would pass over the sick in the streets of Jerusalem?",
+      ["Peter's", "Paul's", "John's", "Stephen's"],
+      "They laid the sick on beds and couches \"that at the least the shadow of Peter passing by might overshadow some of them.\"",
+      "Acts 5:15",
+    ],
+    [
+      "What items were carried from Paul's body to the sick, who were then healed?",
+      ["Handkerchiefs and aprons", "Bread and wine", "Scrolls and parchments", "Sandals and a staff"],
+      "God wrought special miracles by Paul's hands, and handkerchiefs or aprons were brought to the sick.",
+      "Acts 19:11-12",
+    ],
+    [
+      "As a sign for King Hezekiah, how many degrees did the shadow go back on the dial of Ahaz?",
+      ["Ten", "Five", "Twelve", "Three"],
+      "Isaiah cried unto the LORD, \"and he brought the shadow ten degrees backward.\"",
+      "2 Kings 20:9-11",
+    ],
+    [
+      "How many men did Jesus feed with seven loaves and a few little fishes?",
+      ["Four thousand", "Five thousand", "Three thousand", "Two thousand"],
+      "\"They that did eat were four thousand men, beside women and children,\" with seven baskets left over.",
+      "Matthew 15:34-38",
+    ],
+    [
+      "In the city of Nain, whom did Jesus raise from the dead?",
+      ["A widow's only son", "A centurion's servant", "Jairus' daughter", "Lazarus"],
+      "Jesus touched the bier and said, \"Young man, I say unto thee, Arise,\" and delivered him to his mother.",
+      "Luke 7:11-15",
+    ],
+    [
+      "Which two men were mistaken for gods at Lystra after a crippled man was healed?",
+      ["Paul and Barnabas", "Peter and John", "Paul and Silas", "Philip and Stephen"],
+      "The people called Barnabas Jupiter and Paul Mercurius, and the two tore their clothes in protest.",
+      "Acts 14:8-14",
+    ],
+    [
+      "What happened when a dead man was let down into Elisha's grave and touched his bones?",
+      ["He revived and stood up", "The bones turned to dust", "A spring of water flowed", "The tomb was sealed shut"],
+      "\"When the man was let down, and touched the bones of Elisha, he revived, and stood up on his feet.\"",
+      "2 Kings 13:21",
+    ],
+    [
+      "What did Peter find in the mouth of a fish to pay the tribute?",
+      ["A piece of money", "A pearl", "A gold ring", "A key"],
+      "Jesus told Peter that the first fish he caught would have a piece of money in its mouth to pay for them both.",
+      "Matthew 17:24-27",
+    ],
+    [
+      "What did Moses make so that anyone bitten by the fiery serpents could look at it and live?",
+      ["A serpent of brass", "A golden calf", "A silver trumpet", "A wooden ark"],
+      "\"Moses made a serpent of brass, and put it upon a pole,\" and whoever looked upon it lived.",
+      "Numbers 21:8-9",
+    ],
+    [
+      "Who shook a viper off into the fire on the island of Melita and felt no harm?",
+      ["Paul", "Luke", "Silas", "Barnabas"],
+      "The islanders expected Paul to swell up or fall down dead, but when nothing happened they said he was a god.",
+      "Acts 28:3-6",
+    ],
+  ],
+});

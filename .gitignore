@@ -1,0 +1,11 @@
+node_modules
+dist
+*.local
+.DS_Store
+temporary screenshots
+.vercel
+coverage
+.impeccable/review
+
+# Local AI-assistant instructions (machine-specific)
+CLAUDE.md

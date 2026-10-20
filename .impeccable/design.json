@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T01:42:20+00:00",
+  "title": "Design System: Brain Quest",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Unbleached Muslin",
+        "canonical": "#f7f1e5",
+        "oklch": "oklch(96.0% 0.017 84.6)",
+        "dark": "#151a2e",
+        "cssVar": "--ground",
+        "tonalRamp": [
+          "#0f0b06",
+          "#28231f",
+          "#443f3d",
+          "#625d5c",
+          "#827d7e",
+          "#a39ea1",
+          "#c9c3c9",
+          "#f4eef6"
+        ]
+      },
+      "ground-deep": {
+        "role": "neutral",
+        "displayName": "Deep Muslin",
+        "canonical": "#efe6d3",
+        "oklch": "oklch(92.7% 0.027 85.7)",
+        "dark": "#10142a",
+        "cssVar": "--ground-deep",
+        "tonalRamp": [
+          "#100a03",
+          "#2a231a",
+          "#463f37",
+          "#645d56",
+          "#857c78",
+          "#a69e9b",
+          "#ccc3c3",
+          "#f7eef0"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Fresh Calico",
+        "canonical": "#fffbf4",
+        "oklch": "oklch(98.9% 0.010 81.8)",
+        "dark": "#1d2340",
+        "cssVar": "--surface",
+        "tonalRamp": [
+          "#0d0b09",
+          "#262423",
+          "#423f40",
+          "#605d60",
+          "#807d82",
+          "#a29ea5",
+          "#c7c4cd",
+          "#f2eefb"
+        ]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "White Cotton",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "dark": "#252c4d",
+        "cssVar": "--surface-raised",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#242428",
+          "#404045",
+          "#5d5d66",
+          "#7d7d88",
+          "#9e9eab",
+          "#c4c4d4",
+          "#eeeeff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Navy Thread",
+        "canonical": "#1f2443",
+        "oklch": "oklch(27.2% 0.058 275.0)",
+        "dark": "#f3ecdd",
+        "cssVar": "--ink",
+        "tonalRamp": [
+          "#060724",
+          "#1c2142",
+          "#373d62",
+          "#545b84",
+          "#737ba8",
+          "#939ccd",
+          "#b9c2f7",
+          "#e3ecff"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Faded Thread",
+        "canonical": "#464c6c",
+        "oklch": "oklch(42.5% 0.054 275.7)",
+        "dark": "#c9c5d8",
+        "cssVar": "--ink-soft",
+        "tonalRamp": [
+          "#060722",
+          "#1d2140",
+          "#383d60",
+          "#555b82",
+          "#747ba6",
+          "#959ccb",
+          "#bac2f5",
+          "#e4ecff"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Worn Thread",
+        "canonical": "#61668a",
+        "oklch": "oklch(52.0% 0.057 278.1)",
+        "dark": "#a3a3bf",
+        "cssVar": "--ink-faint",
+        "tonalRamp": [
+          "#070723",
+          "#1e2041",
+          "#393d62",
+          "#565b84",
+          "#757aa7",
+          "#969bcd",
+          "#bbc1f7",
+          "#e5ecff"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Seam Line",
+        "canonical": "#e3d8c3",
+        "oklch": "oklch(88.5% 0.031 83.6)",
+        "dark": "#313858",
+        "cssVar": "--line",
+        "tonalRamp": [
+          "#110a02",
+          "#2b2319",
+          "#483f35",
+          "#665c54",
+          "#867c76",
+          "#a89d99",
+          "#cec3c0",
+          "#f8eded"
+        ]
+      },
+      "stitch": {
+        "role": "neutral",
+        "displayName": "Running Stitch",
+        "canonical": "#b3a68b",
+        "oklch": "oklch(72.9% 0.040 85.3)",
+        "dark": "#565e8c",
+        "cssVar": "--stitch",
+        "tonalRamp": [
+          "#130900",
+          "#2d2213",
+          "#493e30",
+          "#685c4f",
+          "#887c70",
+          "#aa9d92",
+          "#d0c3ba",
+          "#fbede7"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Sewing-Box Periwinkle",
+        "canonical": "#4d53ae",
+        "oklch": "oklch(48.6% 0.143 276.8)",
+        "dark": "#a5aaf0",
+        "cssVar": "--primary",
+        "tonalRamp": [
+          "#0c0045",
+          "#1a0c68",
+          "#31318b",
+          "#4b51b0",
+          "#6972d6",
+          "#8994fe",
+          "#adbbff",
+          "#d9e8ff"
+        ]
+      },
+      "primary-press": {
+        "role": "primary",
+        "displayName": "Pressed Periwinkle",
+        "canonical": "#3f4597",
+        "oklch": "oklch(43.2% 0.132 276.2)",
+        "dark": "#8f95e6",
+        "cssVar": "--primary-press",
+        "tonalRamp": [
+          "#0a0041",
+          "#191163",
+          "#303386",
+          "#4b53ab",
+          "#6974d1",
+          "#8996f8",
+          "#adbcff",
+          "#d8e8ff"
+        ]
+      },
+      "on-primary": {
+        "role": "primary",
+        "displayName": "On Periwinkle",
+        "canonical": "#fffbf4",
+        "oklch": "oklch(98.9% 0.010 81.8)",
+        "dark": "#151a2e",
+        "cssVar": "--on-primary",
+        "tonalRamp": [
+          "#0d0b09",
+          "#262423",
+          "#423f40",
+          "#605d60",
+          "#807d82",
+          "#a29ea5",
+          "#c7c4cd",
+          "#f2eefb"
+        ]
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "Periwinkle Text",
+        "canonical": "#4d53ae",
+        "oklch": "oklch(48.6% 0.143 276.8)",
+        "dark": "#b4b8f4",
+        "cssVar": "--accent-text",
+        "tonalRamp": [
+          "#0c0045",
+          "#1a0c68",
+          "#31318b",
+          "#4b51b0",
+          "#6972d6",
+          "#8994fe",
+          "#adbbff",
+          "#d9e8ff"
+        ]
+      },
+      "fab-peri": {
+        "role": "primary",
+        "displayName": "Periwinkle Cloth",
+        "canonical": "#8c92de",
+        "oklch": "oklch(68.6% 0.112 279.6)",
+        "dark": "#7e85d4",
+        "cssVar": "--fab-peri",
+        "tonalRamp": [
+          "#0a0038",
+          "#1d1759",
+          "#36357c",
+          "#5255a0",
+          "#7075c5",
+          "#9096eb",
+          "#b5bcff",
+          "#dfe7ff"
+        ]
+      },
+      "fab-peri-soft": {
+        "role": "primary",
+        "displayName": "Periwinkle Wash",
+        "canonical": "#dcddf6",
+        "oklch": "oklch(90.4% 0.034 283.9)",
+        "dark": "#2c3361",
+        "cssVar": "--fab-peri-soft",
+        "tonalRamp": [
+          "#0a091a",
+          "#222237",
+          "#3d3e56",
+          "#5b5b77",
+          "#7a7b9a",
+          "#9b9cbf",
+          "#c1c2e8",
+          "#ebecff"
+        ]
+      },
+      "fab-sage": {
+        "role": "secondary",
+        "displayName": "Pressed Sage",
+        "canonical": "#a3bc9c",
+        "oklch": "oklch(76.8% 0.052 138.9)",
+        "dark": "#8aa684",
+        "cssVar": "--fab-sage",
+        "tonalRamp": [
+          "#011001",
+          "#162a17",
+          "#314634",
+          "#4f6553",
+          "#6e8574",
+          "#8ea797",
+          "#b3cdbf",
+          "#ddf8ec"
+        ]
+      },
+      "fab-sage-soft": {
+        "role": "secondary",
+        "displayName": "Sage Wash",
+        "canonical": "#e1eadb",
+        "oklch": "oklch(92.6% 0.022 132.5)",
+        "dark": "#26372f",
+        "cssVar": "--fab-sage-soft",
+        "tonalRamp": [
+          "#080d07",
+          "#202620",
+          "#3b423d",
+          "#59605d",
+          "#78807f",
+          "#99a2a2",
+          "#bfc7ca",
+          "#e9f2f7"
+        ]
+      },
+      "fab-gold": {
+        "role": "tertiary",
+        "displayName": "Medal Gold",
+        "canonical": "#e3ae4e",
+        "oklch": "oklch(78.2% 0.128 79.7)",
+        "dark": "#d9a443",
+        "cssVar": "--fab-gold",
+        "tonalRamp": [
+          "#240000",
+          "#421500",
+          "#623300",
+          "#835200",
+          "#a57331",
+          "#c89456",
+          "#f0ba7d",
+          "#ffe6af"
+        ]
+      },
+      "fab-gold-soft": {
+        "role": "tertiary",
+        "displayName": "Gold Wash",
+        "canonical": "#f6e4be",
+        "oklch": "oklch(92.4% 0.053 85.6)",
+        "dark": "#3c3324",
+        "cssVar": "--fab-gold-soft",
+        "tonalRamp": [
+          "#150800",
+          "#30220a",
+          "#4c3e28",
+          "#6b5c47",
+          "#8c7b68",
+          "#ad9d8a",
+          "#d4c2b1",
+          "#ffedde"
+        ]
+      },
+      "fab-coral": {
+        "role": "tertiary",
+        "displayName": "Mended Coral",
+        "canonical": "#e8907f",
+        "oklch": "oklch(74.0% 0.111 31.6)",
+        "dark": "#d98271",
+        "cssVar": "--fab-coral",
+        "tonalRamp": [
+          "#2b0000",
+          "#4c0005",
+          "#6e2223",
+          "#914242",
+          "#b56262",
+          "#da8485",
+          "#ffa9ac",
+          "#ffd3d8"
+        ]
+      },
+      "fab-coral-soft": {
+        "role": "tertiary",
+        "displayName": "Coral Wash",
+        "canonical": "#f8ddd6",
+        "oklch": "oklch(91.8% 0.032 34.9)",
+        "dark": "#42272a",
+        "cssVar": "--fab-coral-soft",
+        "tonalRamp": [
+          "#160606",
+          "#321e1e",
+          "#4f3a3b",
+          "#6e585b",
+          "#8f777c",
+          "#b198a0",
+          "#d8bdc8",
+          "#ffe8f5"
+        ]
+      },
+      "fab-emerald": {
+        "role": "tertiary",
+        "displayName": "Ribbon Emerald",
+        "canonical": "#5bae88",
+        "oklch": "oklch(68.8% 0.100 162.4)",
+        "dark": "#4c9e7a",
+        "cssVar": "--fab-emerald",
+        "tonalRamp": [
+          "#001503",
+          "#00311b",
+          "#004f38",
+          "#0f6f57",
+          "#3b9078",
+          "#5fb29b",
+          "#85d9c3",
+          "#b0fff0"
+        ]
+      },
+      "fab-emerald-soft": {
+        "role": "tertiary",
+        "displayName": "Emerald Wash",
+        "canonical": "#d5ede1",
+        "oklch": "oklch(92.5% 0.030 164.3)",
+        "dark": "#1d3a33",
+        "cssVar": "--fab-emerald-soft",
+        "tonalRamp": [
+          "#010f0a",
+          "#162924",
+          "#314542",
+          "#4e6362",
+          "#6d8384",
+          "#8ea5a7",
+          "#b3cbd0",
+          "#ddf5fd"
+        ]
+      },
+      "fab-navy": {
+        "role": "neutral",
+        "displayName": "Quilt Navy",
+        "canonical": "#2e3560",
+        "oklch": "oklch(34.5% 0.075 274.8)",
+        "dark": "#0d1024",
+        "cssVar": "--fab-navy",
+        "tonalRamp": [
+          "#05042b",
+          "#1a1f4a",
+          "#343c6b",
+          "#515a8e",
+          "#707ab2",
+          "#909bd8",
+          "#b5c1ff",
+          "#dfebff"
+        ]
+      },
+      "fab-muslin": {
+        "role": "neutral",
+        "displayName": "Plain Muslin Patch",
+        "canonical": "#ebe1cc",
+        "oklch": "oklch(91.2% 0.030 85.6)",
+        "dark": "#232948",
+        "cssVar": "--fab-muslin",
+        "tonalRamp": [
+          "#110a02",
+          "#2b2319",
+          "#473f36",
+          "#655d55",
+          "#857c76",
+          "#a79d99",
+          "#cdc3c1",
+          "#f8eeee"
+        ]
+      },
+      "sage-text": {
+        "role": "secondary",
+        "displayName": "Sage Text",
+        "canonical": "#46663f",
+        "oklch": "oklch(47.4% 0.071 140.0)",
+        "dark": "#a9c6a1",
+        "cssVar": "--sage-text",
+        "tonalRamp": [
+          "#001100",
+          "#0e2c11",
+          "#2a492e",
+          "#48684d",
+          "#67886e",
+          "#87aa90",
+          "#acd0b8",
+          "#d6fbe5"
+        ]
+      },
+      "gold-text": {
+        "role": "tertiary",
+        "displayName": "Gold Text",
+        "canonical": "#845c10",
+        "oklch": "oklch(50.5% 0.100 77.2)",
+        "dark": "#ebc06e",
+        "cssVar": "--gold-text",
+        "tonalRamp": [
+          "#200000",
+          "#3d1900",
+          "#5c3600",
+          "#7c5527",
+          "#9e7549",
+          "#c1966c",
+          "#e8bc93",
+          "#ffe6bf"
+        ]
+      },
+      "coral-text": {
+        "role": "tertiary",
+        "displayName": "Coral Text",
+        "canonical": "#a8412f",
+        "oklch": "oklch(51.3% 0.140 32.0)",
+        "dark": "#f0a596",
+        "cssVar": "--coral-text",
+        "tonalRamp": [
+          "#320000",
+          "#550000",
+          "#791117",
+          "#9d3737",
+          "#c25857",
+          "#e87a79",
+          "#ffa0a0",
+          "#ffd1d4"
+        ]
+      },
+      "emerald-text": {
+        "role": "tertiary",
+        "displayName": "Emerald Text",
+        "canonical": "#1f6a49",
+        "oklch": "oklch(46.9% 0.091 160.4)",
+        "dark": "#7fd0a8",
+        "cssVar": "--emerald-text",
+        "tonalRamp": [
+          "#001403",
+          "#00301a",
+          "#004e37",
+          "#236d57",
+          "#478e78",
+          "#69b09b",
+          "#8ed7c3",
+          "#b8fff0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home welcome heading on the quilt label only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Each screen's page heading."
+      },
+      "question": {
+        "displayName": "Question",
+        "purpose": "The question on the gameplay card; Finish-the-Verse switches to Nunito Sans 600."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card names, dialog titles, feedback headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running copy at line-height 1.7."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Screen ledes and home subhead."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Stat captions, footer readouts, chips; sentence case."
+      },
+      "stat": {
+        "displayName": "Stat",
+        "purpose": "Scores, streaks, counts and the timer, tabular."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift-1",
+        "value": "0 1px 1px rgb(31 36 67 / 0.04), 0 2px 6px -2px rgb(31 36 67 / 0.1)",
+        "dark": "0 1px 1px rgb(4 6 18 / 0.3), 0 2px 6px -2px rgb(4 6 18 / 0.4)",
+        "purpose": "Resting answer tiles, secondary buttons, chips."
+      },
+      {
+        "name": "lift-2",
+        "value": "0 1px 2px rgb(31 36 67 / 0.05), 0 6px 14px -6px rgb(31 36 67 / 0.14), 0 18px 36px -18px rgb(31 36 67 / 0.18)",
+        "dark": "0 1px 2px rgb(4 6 18 / 0.3), 0 6px 14px -6px rgb(4 6 18 / 0.45), 0 18px 36px -18px rgb(4 6 18 / 0.5)",
+        "purpose": "Primary buttons, question card, quilt frame, hover of Lift 1."
+      },
+      {
+        "name": "lift-3",
+        "value": "0 2px 4px rgb(31 36 67 / 0.06), 0 12px 28px -10px rgb(31 36 67 / 0.22), 0 32px 64px -28px rgb(31 36 67 / 0.3)",
+        "dark": "0 2px 4px rgb(4 6 18 / 0.35), 0 12px 28px -10px rgb(4 6 18 / 0.55), 0 32px 64px -28px rgb(4 6 18 / 0.6)",
+        "purpose": "Home label, dialogs, toasts, primary hover."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(0.22, 1.2, 0.36, 1)",
+        "purpose": "Press lift (220ms) and switch thumb."
+      },
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Dialog entry (320ms), question slide (320ms), answer pulse and shake."
+      },
+      {
+        "name": "press-active",
+        "value": "translateY(1px) scale(0.98) over 90ms",
+        "purpose": "Pressed state of any .press control."
+      },
+      {
+        "name": "patch-sew-in",
+        "value": "spring stiffness 480 damping 24 from scale 0.55 rotate -8deg",
+        "purpose": "A patch sewing into the round row; 70ms stagger on results."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transforms removed; animations 1ms",
+        "purpose": "Honoured from prefers-reduced-motion and data-motion=reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "360px"
+      },
+      {
+        "name": "quilt-narrow",
+        "value": "560px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ],
+    "texture": {
+      "grain": "SVG fractalNoise 0.85, 3 octaves, 220px tile; 7% multiply light, 9% overlay dark",
+      "groundWash": "radial periwinkle 9% top-left, radial sage 10% bottom-right"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Sewn periwinkle tab for the main action on a screen.",
+      "html": "<button class=\"ds-btn ds-btn-primary ds-stitched\">Start Playing <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-stitched{position:relative}.ds-stitched::after{content:'';position:absolute;inset:var(--si,6px);border:1.5px dashed var(--sc,var(--stitch));border-radius:calc(var(--sr,1.25rem) - var(--si,6px));pointer-events:none}.ds-btn{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 28px;border-radius:1rem;border:0;font:600 1.05rem 'Nunito Sans Variable',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:transform 220ms cubic-bezier(0.22,1.2,0.36,1),opacity 200ms ease;}.ds-btn-primary{background:var(--primary);color:var(--on-primary);box-shadow:var(--shadow-2);--sc:color-mix(in oklab,var(--on-primary) 45%,transparent);--si:4px;--sr:1rem}.ds-btn-primary:hover{transform:translateY(-2px);box-shadow:var(--shadow-3)}.ds-btn-primary:active{transform:translateY(1px) scale(0.98);transition-duration:90ms;background:var(--primary-press)}.ds-btn:focus-visible{outline:3px solid var(--primary);outline-offset:3px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Calico button with a hairline border for the companion action.",
+      "html": "<button class=\"ds-btn2\">My Achievements</button>",
+      "css": ".ds-btn2{display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 28px;border-radius:1rem;background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow-1);font:600 1.05rem 'Nunito Sans Variable',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:transform 220ms cubic-bezier(0.22,1.2,0.36,1),opacity 200ms ease;}.ds-btn2:hover{transform:translateY(-2px);border-color:var(--stitch);box-shadow:var(--shadow-2)}.ds-btn2:active{transform:translateY(1px) scale(0.98);background:var(--ground-deep)}.ds-btn2:focus-visible{outline:3px solid var(--primary);outline-offset:3px}"
+    },
+    {
+      "name": "Answer Option",
+      "kind": "custom",
+      "refersTo": "answer-option",
+      "description": "One of four answer tiles; idle, correct and wrong states shown.",
+      "html": "<div class=\"ds-ans-grid\"><button class=\"ds-ans\"><span class=\"ds-ans-l\">A</span>Honeycomb</button><button class=\"ds-ans ds-ans-ok\"><span class=\"ds-ans-l\">&#10003;</span>Manna</button><button class=\"ds-ans ds-ans-no\"><span class=\"ds-ans-l\">&#215;</span>Barley loaves</button></div>",
+      "css": ".ds-ans-grid{display:grid;gap:12px;max-width:420px}.ds-ans{display:flex;align-items:center;gap:16px;min-height:68px;padding:12px 16px 12px 12px;border-radius:1.1rem;border:2px solid transparent;background:var(--surface);color:var(--ink);box-shadow:var(--shadow-1);font:600 1.05rem 'Nunito Sans Variable',ui-sans-serif,sans-serif;text-align:left;cursor:pointer;transition:transform 220ms cubic-bezier(0.22,1.2,0.36,1),opacity 200ms ease;}.ds-ans:hover{transform:translateY(-2px);border-color:var(--line);box-shadow:var(--shadow-2)}.ds-ans:active{transform:translateY(1px) scale(0.98)}.ds-ans:focus-visible{outline:3px solid var(--primary);outline-offset:2px}.ds-ans-l{display:flex;width:40px;height:40px;flex:none;align-items:center;justify-content:center;border-radius:.75rem;background:var(--fab-muslin);font:700 1.125rem 'Bricolage Grotesque Variable',sans-serif}.ds-ans-ok{border-color:var(--fab-emerald);background:var(--fab-emerald-soft)}.ds-ans-ok .ds-ans-l{background:var(--fab-emerald);color:var(--fab-navy)}.ds-ans-no{border-color:var(--fab-coral);background:var(--fab-coral-soft)}.ds-ans-no .ds-ans-l{background:var(--fab-coral);color:var(--fab-navy)}"
+    },
+    {
+      "name": "Quilt Patch Row",
+      "kind": "custom",
+      "refersTo": "round-row",
+      "description": "A round's row of patches: correct half-square triangles, a missed muslin patch with coral cross-stitch, the current slot, and unsewn seams.",
+      "html": "<div class=\"ds-row\"><svg viewBox=\"0 0 40 40\"><rect width=\"40\" height=\"40\" rx=\"5\" fill=\"var(--fab-gold)\"/><path d=\"M0 0H40L0 40Z\" fill=\"var(--fab-peri)\"/><rect x=\"4\" y=\"4\" width=\"32\" height=\"32\" rx=\"2.5\" fill=\"none\" stroke=\"var(--ink)\" stroke-opacity=\".28\" stroke-dasharray=\"2.5 2.5\"/></svg><svg viewBox=\"0 0 40 40\"><rect width=\"40\" height=\"40\" rx=\"5\" fill=\"var(--fab-muslin)\"/><path d=\"M17.5 17.5l5 5M22.5 17.5l-5 5\" stroke=\"var(--fab-coral)\" stroke-width=\"2\" stroke-linecap=\"round\"/><rect x=\"4\" y=\"4\" width=\"32\" height=\"32\" rx=\"2.5\" fill=\"none\" stroke=\"var(--ink)\" stroke-opacity=\".28\" stroke-dasharray=\"2.5 2.5\"/></svg><svg viewBox=\"0 0 40 40\"><rect x=\"1\" y=\"1\" width=\"38\" height=\"38\" rx=\"5\" fill=\"var(--surface)\" stroke=\"var(--stitch)\" stroke-width=\"1.5\" stroke-dasharray=\"3.5 3\"/></svg><svg viewBox=\"0 0 40 40\"><rect x=\"1\" y=\"1\" width=\"38\" height=\"38\" rx=\"5\" fill=\"var(--surface)\" stroke=\"var(--stitch)\" stroke-width=\"1.5\" stroke-dasharray=\"3.5 3\"/></svg></div>",
+      "css": ".ds-row{display:grid;grid-template-columns:repeat(4,48px);gap:6px}.ds-row svg{display:block;width:48px;height:48px}"
+    },
+    {
+      "name": "Sewn Label Card",
+      "kind": "card",
+      "refersTo": "quilt-label",
+      "description": "The surface for headings, dialogs and the home welcome: calico with an inset running stitch.",
+      "html": "<div class=\"ds-label ds-stitched\"><h3 class=\"ds-label-t\">Leave this round?</h3><p class=\"ds-label-p\">Your progress in this round won't be saved.</p></div>",
+      "css": ".ds-stitched{position:relative}.ds-stitched::after{content:'';position:absolute;inset:var(--si,6px);border:1.5px dashed var(--sc,var(--stitch));border-radius:calc(var(--sr,1.25rem) - var(--si,6px));pointer-events:none}.ds-label{max-width:380px;padding:32px;border-radius:1.5rem;background:var(--surface);color:var(--ink);box-shadow:var(--shadow-3);--si:8px;--sr:1.5rem}.ds-label-t{margin:0;font:700 1.5rem/1.2 'Bricolage Grotesque Variable',sans-serif;letter-spacing:-0.02em}.ds-label-p{margin:8px 0 0;color:var(--ink-soft);font:400 1rem/1.7 'Nunito Sans Variable',sans-serif}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Header nav; the current page wears its own soft fabric.",
+      "html": "<nav class=\"ds-nav\"><button class=\"ds-nav-i ds-nav-gold\">Achievements</button><button class=\"ds-nav-i\">Stats</button></nav>",
+      "css": ".ds-nav{display:flex;gap:4px}.ds-nav-i{min-height:44px;padding:0 14px;border:0;border-radius:.75rem;background:transparent;color:var(--ink-soft);font:600 .875rem 'Nunito Sans Variable',sans-serif;cursor:pointer;transition:transform 220ms cubic-bezier(0.22,1.2,0.36,1),opacity 200ms ease;}.ds-nav-i:hover{background:var(--ground-deep);color:var(--ink);transform:translateY(-2px)}.ds-nav-i:active{background:var(--line);transform:translateY(1px) scale(.98)}.ds-nav-i:focus-visible{outline:3px solid var(--primary);outline-offset:3px}.ds-nav-gold{background:var(--fab-gold-soft);color:var(--ink)}"
+    },
+    {
+      "name": "Reference Chip",
+      "kind": "chip",
+      "refersTo": "reference-chip",
+      "description": "Scripture reference pill under each explanation.",
+      "html": "<span class=\"ds-chip\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"var(--accent-text)\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 7v14\"/><path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\"/></svg>Exodus 16:31</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:9999px;background:var(--surface-raised);color:var(--ink);box-shadow:var(--shadow-1);font:700 .875rem 'Nunito Sans Variable',sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Answer Quilt",
+    "overview": "**Creative North Star: \"The Answer Quilt\"**\n\nBrain Quest is a modern patchwork quilt you sew one answer at a time. Every question is a patch, a round is a row of ten, and a player's history is a quilt that grows across the home screen. The ground is unbleached muslin, the ink is navy thread, and colour arrives as flat fabric laid with full commitment: periwinkle, sage, gold, coral and emerald, pieced into half-square triangles and edged with dashed running stitches.\n\nThe system is cozy but not childish. Large Bricolage Grotesque headings sit on calm Nunito Sans body copy with generous 1.7 leading; surfaces are sewn-on labels with a running stitch just inside the edge; depth is soft and navy-tinted rather than grey. Modern-quilt negative space matters as much as the fabric: plain muslin patches and quiet ground are the canvas the coloured patches read against. Statistics and progress are drawn as quilt geometry (patch rows, strip-pieced bars), never stock charts.\n\nThe first visit shows a sample cloth of diagonal fabric stripes. Once the player has any history, the quilt shows only their real rows plus plain muslin; the sample is unpicked.",
+    "keyCharacteristics": [
+      "Muslin ground, navy ink, flat fabric fields; no gradients on fabric.",
+      "Half-square-triangle patches with dashed running-stitch seams.",
+      "Sewn-label surfaces: a dashed stitch inset 4 to 8px from the edge of primary buttons, dialogs, question cards and the home label.",
+      "Strict colour law: emerald means correct, coral means incorrect, gold means achievements and hints.",
+      "Soft, layered, navy-tinted elevation; motion is transform and opacity only, with a springy settle."
+    ],
+    "rules": [
+      {
+        "name": "The Colour Law Rule",
+        "body": "Emerald means correct, coral means incorrect, gold means achievements and hints. No signal colour is borrowed for decoration, status, or emphasis elsewhere in the interface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cloth Exception Rule",
+        "body": "Inside the quilt itself (patches, category and pattern swatches, the brand mark), every fabric is cloth, not signal, and may be pieced freely. A correct patch is a half-square triangle in the round's two fabrics; a missed answer is a muslin patch with a small coral cross-stitch; a timed-out answer is muslin with a small dashed coral ring.",
+        "section": "colors"
+      },
+      {
+        "name": "The Text-Tone Rule",
+        "body": "Fabric fills are too light for text. Any coloured text uses the matching `-text` token (sage-text, gold-text, coral-text, emerald-text, accent-text).",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Thread Rule",
+        "body": "Bricolage is for headings and numbers; Nunito Sans is for everything you read. Body copy never sets in the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The 1.7 Rule",
+        "body": "Body and lede copy run at line-height 1.7. Headings run tight (1.05) with -0.03em tracking and balanced wrapping.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sewn-Piece Rule",
+        "body": "Elevation rises one step on hover and settles on press. Nothing floats without a reason: the scrim (navy at 45%) is the only full-screen layer.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** draw progress and statistics as quilt geometry: patch rows and strip-pieced bars.",
+      "**Do** keep fabric fills flat and let plain muslin carry the negative space.",
+      "**Do** put a running stitch inside every sewn piece that matters (primary buttons, labels, dialogs, toasts), inset 4 to 8px.",
+      "**Do** use the `-text` tokens for any coloured text, and tabular figures for every number.",
+      "**Do** give every clickable element hover, focus-visible and active states, with a 44px minimum target.",
+      "**Do** honour reduced motion from both the OS setting and the in-app setting."
+    ],
+    "donts": [
+      "**Don't** use emerald, coral or gold as interface signals for anything but correct, incorrect, and achievements-and-hints respectively; inside the quilt they are cloth.",
+      "**Don't** show the sample stripes once a player has history; real rows plus plain muslin only.",
+      "**Don't** use stock charts, confetti, or a plain progress bar for round progress.",
+      "**Don't** animate colour, size or layout properties; animate transform and opacity only.",
+      "**Don't** use uppercase or letter-spaced labels; labels are sentence case.",
+      "**Don't** use grey or hard offset shadows; elevation is soft and navy-tinted."
+    ]
+  }
+}
